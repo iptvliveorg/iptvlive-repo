@@ -39,7 +39,8 @@
 			<description lang="pl">Wtyczka dla Uzytkowników VIP::iptvlive.org</description>
 			<disclaimer>Licence: As is.</disclaimer>
 			<disclaimer lang="en">Licence: As is.</disclaimer>
-			<platform>all</platform> 
-			</extension>
+			<platform>all</platform>
+			<source>http://wtyczki.iptvlive.org/VIP/plugin.video.vip.iptvlive.zip</source>
+		</extension>
 	</addon>
 </addons>
