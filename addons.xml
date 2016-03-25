@@ -24,4 +24,22 @@
 			<website>http://iptvlive.org/</website>
 		</extension>
 	</addon>
+	<addon id="plugin.video.iptvlive" name="vip.iptvlive.org" version="0.1" provider-name="iptvlive.org">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.simplejson" version="2.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Wtyczka dla Uzytkowników VIP - iptvlive.org</summary>
+			<summary lang="pl">Wtyczka dla Uzytkowników VIP - iptvlive.org</summary>
+			<description>Wtyczka dla Uzytkowników VIP - iptvlive.org</description>
+			<description lang="pl">Wtyczka dla Uzytkowników VIP::iptvlive.org</description>
+			<disclaimer>Licence: As is.</disclaimer>
+			<disclaimer lang="en">Licence: As is.</disclaimer>
+			<platform>all</platform> 
+			</extension>
+	</addon>
 </addons>
