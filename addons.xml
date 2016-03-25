@@ -1,0 +1,27 @@
+<addons>
+	<addon id="plugin.audio.pl.radio" name="PL Radio" version="0.0.2" provider-name="RAFCIO - iptvlive.org">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Broadcastify</summary>
+			<description lang="en">
+				Polish Radio Stations
+			</description>
+			<description lang="pl">
+				Polskie Stacje Radiowe
+			</description>
+			<platform>all</platform>
+			<forum>
+				http://forum.iptvlive.org
+			</forum>
+			<source>
+				http://wtyczki.iptvlive.org/PL%20Radio/pl.radio.zip
+			</source>
+			<website>http://iptvlive.org/</website>
+		</extension>
+	</addon>
+</addons>
